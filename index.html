@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smagulov Dastan</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/12514ffb2f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <!-- header -->
+    <header>
+      <div class="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
+      </div>
+      <nav class="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#" class="nav-link">Главная страница</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-link">Про меня</a>
+          </li>
+          <li>
+            <a href="#services" class="nav-link">Отзывы</a>
+          </li>
+          <li>
+            <a href="#why" class="nav-link">Для кого</a>
+          </li>
+          <li>
+            <a href="#timetable" class="nav-link">Программа курса</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Забронировать место</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="landing-text" id="landing-text">
+        <h1>Курс по созданию сайтов с нуля</h1>
+        <h6 class="color">Хотите узнать подходит ли вам программирование?</h6>
+        <h6>
+          Вам 14-18 лет, и вы готовы за месяц создать свой собственный
+          уникальный сайт?
+        </h6>
+      </div>
+    </header>
+
+    <!-- about -->
+    <section class="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="main-photo.jpg" alt="" />
+        </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+          <div class="about-heading">
+            <h1>Обо</h1>
+            <h6>Мне</h6>
+          </div>
+          <p class="main-part" id="about">
+            Меня зовут Дастан, и я изучаю веб разработку более
+            <span class="main-span"> двух лет. </span>
+            <br />
+            <br />
+            Последнии шесть месяцов я преподовал создание сайтов для детей в
+            школе
+            <span class="main-span"> Скайсмарт </span> и
+            осознал, что вижу в этом ценность, только когда не
+            ограничиваю себя учебным материалом. <br />
+            <br />
+            Я решил создать этот курс, потому что верю, что за
+            <span class="main-span"> 1.5 месяца </span>
+            способен научить любого подростка навыкам верстки сайтов, и дать
+            возможность полюбить программирование, и найти себя в этой сфере.
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a
+href="https://www.instagram.com/dos.is.seeker/"
+                  class="icon-link"
+                >
+                  <img
+                    src="insta.png"
+                    alt=""
+                    id="insta"
+                  />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://api.whatsapp.com/send/?phone=77029134650&text=Здравствуйте%2C+у+меня+есть+вопрос"
+                  class="icon-link"
+                >
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services" id="services">
+      <div class="container">
+        <!-- heading -->
+        <div class="section-heading">
+          <h1>Отзывы Учеников</h1>
+          <h6>прошлый опыт</h6>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="skill swiper-slide">
+                <div class="icon-container">
+                  <img src="Vlad.jpg" alt="" />
+                </div>
+                <h1>Влад, 15 лет</h1>
+                <p class="swiper-text">
+                  Я проходил курс по вед-разработке на SkySmart'e с
+                  преподавателем Дастаном. На курсах было очень много
+                  интересного. Дастан очень крутой преподаватель, с которым
+                  легко найти общий язык
+                </p>
+              </div>
+
+              <div class="skill swiper-slide">
+                <div class="icon-container">
+                  <img src="Artem.jpg" alt="" />
+                </div>
+                <h1>Артем, 16 лет</h1>
+                <p class="swiper-text">
+                  Дастан - человек позитив) С его помощью я понял, что информатика - это
+                  интересно. Он открыл мне дверь в мир программирования. На его
+                  уроках никогда не бывает скучно) От всей души ему благодарен!
+                </p>
+              </div>
+
+              <div class="skill swiper-slide">
+                <div class="icon-container">
+                  <img src="Mark.jpg" alt="" />
+                </div>
+                <h1>Марк, 16 лет</h1>
+                <p class="swiper-text">
+                  Мне понравился ваш метод преподавания , вы максимально понятно
+                  и интересно всё объясняли , а также сказали как развиваться в
+                  этом направлении и показали несколько полезных ресурсов
+                  которые смогут мне в этом помочь
+                </p>
+              </div>
+
+              <div class="skill swiper-slide">
+                <div class="icon-container">
+                  <img src="Vasilisa.jpg" alt="" />
+                </div>
+                <h1>Василиса, 15 лет</h1>
+                <p class="swiper-text">
+                  Все хорошо обясняет, очень круто и интересно ведет занятие,
+                  интересный собеседник, и учитель. С не терпением жду следующих
+                  занятий.
+                </p>
+              </div>
+
+              <div class="skill swiper-slide">
+                <div class="icon-container">
+                  <img src="Andrey.jpg" alt="" />
+                </div>
+                <h1>Андрей, 17 лет</h1>
+                <p class="swiper-text">
+                  Весь курс мне объясняли понятно и на всем мои вопросы всегда
+                  были адекватные ответы. Преподаватель зачастую с частичкой юмора, доходчиво
+                  объяснял темы и никогда, ни за что не ругал)
+                </p>
+              </div>
+              <!-- remove arrows if it smaller than -->
+            </div>
+            <br><br>
+            <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="portfolio" id="why">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Для кого этот курс?</h1>
+          <h6>
+            И за что вы заплатите
+            <span class="mooney"> 41,000 тг</span
+            >(повышенная стипендия студента)
+          </h6>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="300"
+          >
+            <img src="images/isProgramming.jpg" alt="" />
+          </div>
+          <div
+            class="portfolio-decription"
+            data-aos="fade-left"
+            data-aos-delay="600"
+          >
+            <h6 class="side">
+              Для тех, кто хочет понять подходит ли ему программирование
+            </h6>
+            <p class="side-p">
+              <br />
+              Преподователь обучался в двух лучших школах программирования в
+              Казахстане. Обучается в одном из лучших IT университетов столицы.
+              Умеет мотивировать, и разбирается в сфере.
+            </p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-decription"
+            data-aos="fade-right"
+            data-aos-delay="900"
+          >
+            <h6 class="middle">
+              Для тех, кто хочет научиться создавать сайты <br />
+              <br />
+              И обучиться современным технологиям
+            </h6>
+            <p class="middle-p">
+              <br />
+              Всего за 6 недель мы изучим HTML/CSS, познакомимся с фигмой, и
+              научимся создавать анимации с помощью Javascript-a. А главное, к
+              концу курса каждый ученик сможет создать свой собственный
+              уникальный сайт с нуля.
+            </p>
+          </div>
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="1200"
+          >
+            <img class="middle-image" src="Website.png" alt="" />
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div
+            class="portfolio-img has-margin-right"
+            data-aos="fade-right"
+            data-aos-delay="1500"
+          >
+            <img src="Mooney.jpg" alt="" />
+          </div>
+          <div
+            class="portfolio-decription"
+            data-aos="fade-left"
+            data-aos-delay="1800"
+          >
+            <h6 class="side">
+              Этот курс не гарантирует трудоустройство <br />
+              <br />
+              Но с помощью знаний, которые вы получите на курсе вы вполне
+              сможете брать несложные заказы на фрилансе
+            </h6>
+            <p class="side-p">
+              <br />
+              Верстка всегда будет акутальной, и за нее всегда будут платить. Я
+              направлю вас, и помогу начать. Дам наставления, как и куда
+              двигаться дальше.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- timetable -->
+    <section class="experience" id="timetable">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Программа курса</h1>
+          <h6>6 недель интенсивногооо обучения!</h6>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+          <ul>
+            <li class="date" data-date="1 неделя">
+              <h1>Введение в веб, основы HTML</h1>
+              <p>
+                Инструменты для создания сайтов. Главный язык веба HTML. Теги, и
+                аттрибуты. Структура. Проект Кофе Магазин.
+              </p>
+            </li>
+            <li class="date" data-date="2 неделя">
+              <h1>Основы CSS</h1>
+              <p>
+                Язык разметки CSS. Контейнеры. Работа со шрифтами, и цветом.
+                Отступы. Псевдоэлементы. Свойство display. Проект: уникальная
+                форма в css.
+              </p>
+            </li>
+            <li class="date" data-date="3 неделя">
+              <h1>Figma, и верстка макета</h1>
+              <p>
+                Знакомство с Фигмой. Flexbox. Свойство position. Верстка
+                настоящего макета с наставлением преподователя. Закрепление
+                материала.
+              </p>
+            </li>
+            <li class="date" data-date="4 неделя">
+              <h1>Завершение верстки макета. Ответы на вопросы</h1>
+              <p>
+                Небольшая пауза для уверенного усвоения материала.
+                Двухчасовые индивидуальные уроки с добиванием пробелов каждого из учеников,
+                рефлексия. Готовый проект.
+              </p>
+              <!-- найти небольшой лекгий макет -->
+            </li>
+            <li class="date" data-date="5 неделя">
+              <h1>
+                Знакомство с библиотекой anima js. Основа адаптивной верстки
+              </h1>
+              <p>
+                Свойство transform. Анимация в css. Умение читать документацию, и подключать библиотеки. Как сделать так, чтобы
+                сайт выглядел одинаково хорошо на всех устройствах.
+                Где искать вдохновения для своего уникального проекта, и почему
+                воровать дизайны не плохо.
+              </p>
+            </li>
+            <li class="date" data-date="6 неделя">
+              <!-- три урока в неделю -->
+              <h1>
+                Завершение курса. Презентации проектов. Хостинг github pages
+              </h1>
+              <p>
+                Индивидульный урок, помощь с проектом для каждого ученика. Презентация проектов. Хостинг github pages, и возможность
+                поделиться своим сайтом, и прогрессом на курсе. Наставления преподователя, и
+                ответы на вопросы.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Забронировать место</h1>
+          <h6>НАЧАЛО ПЕРВОГО ПОТОКА УЖЕ 23 ЯНВАРЯ!</h6>
+        </div>
+          <button data-aos="fade-up" data-aos-delay="300" type="submit" id="submitBtn"> Записаться на первый поток</button>
+      </div>
+    </section>
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <p>Copy: 2023 Смагулов Дастан</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true
+        },
+      });
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
+<!-- первый блок главная страница, это продажа курса, курс главный фокус, и цена и менюшка. ОЧЕНЬ ВАЖНО. ХОРОШЕНЬКО ПРОДУМАТЬ -->
+<!-- второй блок про меня, и фотка норм. ПОЧЕМУ ОНИ ДОЛЖНЫ ДОВЕРЯТЬ МНЕ. -->
+<!-- отзывы -->
+<!-- третий блок кому подойдет, и для чего покупать этот курс. ЗА ЧТО 36 ТЫС. МЕСЯЧНАЯ СТИПЕНДИЯ СТУДЕНТА) -->
+<!-- четвертый блок таймтейбл с программой курс -->
+<!-- шестой блок ответы на вопросы -->
+<!-- контакты, ватсапп, сделать так, чтобы инфа мне приходила сообщением. -->
+
+<!-- начало 7 января -->
